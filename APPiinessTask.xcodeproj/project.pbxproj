@@ -91,6 +91,7 @@
 				84AD5444251AC9AD00A3CC75 /* ViewModel */,
 				84AD5421251AC6DC00A3CC75 /* AppDelegate.swift */,
 				84AD5423251AC6DD00A3CC75 /* SceneDelegate.swift */,
+				84AD544A251ACE1400A3CC75 /* TableCell */,
 				84AD5425251AC6DD00A3CC75 /* ViewController.swift */,
 				84AD5427251AC6DD00A3CC75 /* Main.storyboard */,
 				84AD542A251AC6E200A3CC75 /* Assets.xcassets */,
@@ -112,7 +113,6 @@
 		84AD5444251AC9AD00A3CC75 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				84AD544A251ACE1400A3CC75 /* TableCell */,
 				84AD5445251AC9D400A3CC75 /* ViewModel.swift */,
 			);
 			path = ViewModel;
