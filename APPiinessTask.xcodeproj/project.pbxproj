@@ -14,6 +14,10 @@
 		84AD542B251AC6E200A3CC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD542A251AC6E200A3CC75 /* Assets.xcassets */; };
 		84AD542E251AC6E200A3CC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD542C251AC6E200A3CC75 /* LaunchScreen.storyboard */; };
 		84AD5439251AC6E200A3CC75 /* APPiinessTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD5438251AC6E200A3CC75 /* APPiinessTaskTests.swift */; };
+		84AD5446251AC9D400A3CC75 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD5445251AC9D400A3CC75 /* ViewModel.swift */; };
+		84AD5449251ACA3B00A3CC75 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD5448251ACA3B00A3CC75 /* StudentModel.swift */; };
+		84AD544F251ACF2B00A3CC75 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD544D251ACF2B00A3CC75 /* StudentCell.swift */; };
+		84AD5450251ACF2B00A3CC75 /* StudentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AD544E251ACF2B00A3CC75 /* StudentCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		84AD5434251AC6E200A3CC75 /* APPiinessTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPiinessTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD5438251AC6E200A3CC75 /* APPiinessTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPiinessTaskTests.swift; sourceTree = "<group>"; };
 		84AD543A251AC6E200A3CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AD5445251AC9D400A3CC75 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		84AD5448251ACA3B00A3CC75 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		84AD544D251ACF2B00A3CC75 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		84AD544E251ACF2B00A3CC75 /* StudentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		84AD5420251AC6DC00A3CC75 /* APPiinessTask */ = {
 			isa = PBXGroup;
 			children = (
+				84AD5447251ACA1800A3CC75 /* model */,
+				84AD5444251AC9AD00A3CC75 /* ViewModel */,
 				84AD5421251AC6DC00A3CC75 /* AppDelegate.swift */,
 				84AD5423251AC6DD00A3CC75 /* SceneDelegate.swift */,
 				84AD5425251AC6DD00A3CC75 /* ViewController.swift */,
@@ -97,6 +107,32 @@
 				84AD543A251AC6E200A3CC75 /* Info.plist */,
 			);
 			path = APPiinessTaskTests;
+			sourceTree = "<group>";
+		};
+		84AD5444251AC9AD00A3CC75 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84AD544A251ACE1400A3CC75 /* TableCell */,
+				84AD5445251AC9D400A3CC75 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84AD5447251ACA1800A3CC75 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				84AD5448251ACA3B00A3CC75 /* StudentModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		84AD544A251ACE1400A3CC75 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				84AD544D251ACF2B00A3CC75 /* StudentCell.swift */,
+				84AD544E251ACF2B00A3CC75 /* StudentCell.xib */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +219,7 @@
 				84AD542E251AC6E200A3CC75 /* LaunchScreen.storyboard in Resources */,
 				84AD542B251AC6E200A3CC75 /* Assets.xcassets in Resources */,
 				84AD5429251AC6DD00A3CC75 /* Main.storyboard in Resources */,
+				84AD5450251ACF2B00A3CC75 /* StudentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +239,9 @@
 			files = (
 				84AD5426251AC6DD00A3CC75 /* ViewController.swift in Sources */,
 				84AD5422251AC6DC00A3CC75 /* AppDelegate.swift in Sources */,
+				84AD5446251AC9D400A3CC75 /* ViewModel.swift in Sources */,
+				84AD544F251ACF2B00A3CC75 /* StudentCell.swift in Sources */,
+				84AD5449251ACA3B00A3CC75 /* StudentModel.swift in Sources */,
 				84AD5424251AC6DD00A3CC75 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
